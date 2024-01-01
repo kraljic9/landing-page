@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+/*NAV BAR with LOGO */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    gap: 10px;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* HEADER CONTENT */
+
+#header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+.header-image {
+    text-align: center;
+    width: 25%;
+    
+}
+
+.header-text > h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-text > p {
+    font-size: 18px;
+    color: grey;
+}
+
+.btn-one {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main > h2 {
+    text-align: center;
+    padding: 30px;
+    color: #1F2937;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.box > h3 {
+    font-size: 50px;
+}
+
+.img-box {
+    width: 100%;
+    border: 5px solid #3882F6;
+    border-radius:5px;
+    object-fit: contain;
+}
+
+section {
+    background-color: #3882F6;
+}
+
+article {
+    background-color: #E5E7EB;
+}
+
+#main-text {
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+}
+
+#bottom-text {
+    font-style: italic;
+    text-align: end;
+}
+
+
+#section-button {
+    background-color: #3882F6;
+}
+
+
+
+footer {
+    background-color: #1F2937;
+}

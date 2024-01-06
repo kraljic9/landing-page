@@ -129,6 +129,8 @@ main > h2 {
     object-fit: contain;
 }
 
+/* ARTICLE */
+
 article {
     background-color: #E5E7EB;
     display: flex;
@@ -155,8 +157,10 @@ article {
     text-align: end;
 }
 
+/* SECTION */
+
 section {
-    background-color:  #F9FAF8;
+    background-color: white;
     padding: 50px;    
     color: #F9FAF8;
     font-size: 30px;
@@ -181,6 +185,8 @@ section {
     margin-left: 15%;
     margin-right: 15%;
 }
+
+/* FOOTER */
 
 footer {
     background-color: #1F2937;
